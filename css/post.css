@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: 'SuperMario';
+    /* src: url('font/SuperMario85.woff') format('woff'); */
+    src: url('font/SuperMarioWorldTextBoxRegular-Y86j.ttf') format('woff');
+     /* Adjust format if needed */
+}
+
+/* Global settings for box-sizing and margin reset */
+* {
+    letter-spacing:2px;
+    font-family: 'SuperMario', sans-serif;
+    /* font-size: smaller; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+/* Header */
+.header {
+    background: #1d51d8d4;
+    border-top: 5px solid #2e00fd;
+    border-bottom: 5px solid #2e00fd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header h1 {
+    
+    font-size: 2.5rem;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header img{
+    width: 48px;
+    height: 48px;
+    justify-self: right;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #7a5c43;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Header container using Grid */
+.header-container {
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navbar (top menu) */
+.navbar {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+   font-size: 1.5rem;
+   color:blue;
+
+}
+.nav-btn{
+    background: rgb(185, 185, 185);
+    border: 2px solid black;
+    width: 100%;
+   padding: 10px;
+   box-shadow: inset -5px 4px 2px 4px rgba(0, 0, 0, 0.696);
+}
+
+.navbar a {
+padding: 1rem;
+    color: #4800ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.navbar a:hover {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.camera-container {
+    margin-top: 20px;
+}
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+footer {
+    background: #1d51d8d4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: auto;
+}

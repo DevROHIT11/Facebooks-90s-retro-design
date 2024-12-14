@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reel.css">
+    <title>Camera Photo Capture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .camera-container {
+            margin-top: 20px;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>FACEBOOK</h1>
+        <img src="assets/png/settings.png" alt="settings">
+    </div>
+    <div class="header-container">
+        <div class="navbar">
+            <a class="nav-btn" href="index.html">Home</a>
+            <a class="nav-btn" href="">Post</a>
+        </div>
+    </div>
+    <section>
+        <h1>Take a Picture</h1>
+        <p>Click the button below to take a picture using your device's camera.</p>
+
+        <input type="file" accept="image/*" capture="camera" id="cameraUpload" />
+
+        <!-- Preview the uploaded image -->
+        <img id="preview" style="max-width: 300px; margin-top: 20px;" />
+      
+        <script>
+          // Preview the image after capture
+          document.getElementById('cameraUpload').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+              const reader = new FileReader();
+              reader.onload = function(e) {
+                document.getElementById('preview').src = e.target.result;
+              };
+              reader.readAsDataURL(file);
+            }
+          });
+        </script>
+    </section>
+
+    <footer>&copy; 90s Facebook Design - All Rights Reserved</footer>
+</body>
+</html>
