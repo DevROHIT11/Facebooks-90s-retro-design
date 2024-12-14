@@ -7,6 +7,7 @@
 
 /* Global settings for box-sizing and margin reset */
 * {
+    cursor:url(/assets/png/cursorpbg.jpg) , auto;
     letter-spacing:2px;
     font-family: 'SuperMario', sans-serif;
     /* font-size: smaller; */
