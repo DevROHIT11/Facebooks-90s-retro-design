@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'SuperMario';
-    /* src: url('font/SuperMario85.woff') format('woff'); */
     src: url('font/SuperMarioWorldTextBoxRegular-Y86j.ttf') format('woff');
-     /* Adjust format if needed */
 }
 
-/* Global settings for box-sizing and margin reset */
+
 * {
+    cursor: pointer;
     letter-spacing:2px;
     font-family: 'SuperMario', sans-serif;
-    /* font-size: smaller; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+
 html, body {
     height: 100%;
     font-family: Arial, sans-serif;
@@ -22,7 +22,10 @@ html, body {
     display: flex;
     flex-direction: column;
     line-height: 2rem;
+    margin: 0;
 }
+
+
 
 /* Header */
 .header {
@@ -59,7 +62,6 @@ html, body {
     font-style: italic;
 }
 
-/* Header container using Grid */
 .header-container {
     gap: 20px;
     padding: 20px;
@@ -109,7 +111,7 @@ input[type="file"] {
     padding: 10px;
 }
 img {
-    margin-top: 20px;
+    margin: 20px auto;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
@@ -127,5 +129,5 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 12px;
-    margin-top: auto;
+    margin-top: auto; 
 }

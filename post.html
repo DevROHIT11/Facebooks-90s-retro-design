@@ -5,32 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/post.css">
     <title>Retro-Facebook | Post</title>
-    <style>
-        .camera-container {
-            margin-top: 20px;
-        }
-        input[type="file"] {
-            display: block;
-            margin: 20px auto;
-            padding: 10px;
-        }
-        img {
-            margin-top: 20px;
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #333;
-            border-radius: 8px;
-        }
-        footer {
-            margin-top: 30px;
-            font-size: 14px;
-        }
-    </style>
 </head>
 <body>
     <div class="header">
         <h1>FACEBOOK</h1>
-        <img src="assets/png/settings.png" alt="settings">
+        <img src="assets/png/settings.png" alt="settings" loading="lazy">
     </div>
     <div class="header-container">
         <div class="navbar">
@@ -45,7 +24,7 @@
         <input type="file" accept="image/*" capture="camera" id="cameraUpload" placeholder="upload photo" />
 
         <!-- Preview the uploaded image -->
-        <img id="preview" style="max-width: 300px; margin-top: 20px;" />
+        <img id="preview" style="max-width: 300px; margin-top: 20px;"  loading="lazy">
       
         <script>
           // Preview the image after capture

@@ -1,14 +1,12 @@
 @font-face {
     font-family: 'SuperMario';
-    /* src: url('font/SuperMario85.woff') format('woff'); */
     src: url('font/SuperMarioWorldTextBoxRegular-Y86j.ttf') format('woff');
-     /* Adjust format if needed */
 }
 
 /* Global settings for box-sizing and margin reset */
 * {
+    cursor: pointer;
     font-family: 'SuperMario', sans-serif;
-    /* font-size: smaller; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;

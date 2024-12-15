@@ -1,11 +1,10 @@
 @font-face {
     font-family: 'SuperMario';
-    /* src: url('font/SuperMario85.woff') format('woff'); */
     src: url('font/SuperMarioWorldTextBoxRegular-Y86j.ttf') format('woff');
-     /* Adjust format if needed */
 }
 
 * {
+    cursor: pointer;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -62,8 +61,23 @@ body {
     margin-top: 10px;
 }
 
+.login-container button a{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 .login-container button:hover {
     background-color: #2d4373;
+}
+
+.login-container a:hover{
+    background-color: #2d4373;
+    color: white;
 }
 
 .login-container a {

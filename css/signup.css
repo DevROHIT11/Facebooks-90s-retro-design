@@ -1,11 +1,10 @@
 @font-face {
     font-family: 'SuperMario';
-    /* src: url('font/SuperMario85.woff') format('woff'); */
     src: url('font/SuperMarioWorldTextBoxRegular-Y86j.ttf') format('woff');
-     /* Adjust format if needed */
 }
 
 * {
+    cursor: pointer;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,7 +52,16 @@ body {
     border: 1px solid #d3d3d3;
 }
 
-.signup-container button {
+.signup-container button  {
+    background: #3b5998;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-container button a {
     background: #3b5998;
     color: white;
     padding: 10px;
@@ -64,6 +72,10 @@ body {
 
 .signup-container button:hover {
     background: #365492;
+}
+
+.signup-container a:hover{
+    color: white;
 }
 
 .signup-container p {
