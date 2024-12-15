@@ -25,8 +25,8 @@ A nostalgic Facebook clone inspired by the platform's early days. This project r
 ---
 
 ## Screenshots
-![Screenshot of Home Page](facebook-90s\projectassests\homepage.png)
-![Screenshot of Profile Page](C:\Users\Rohit\OneDrive\Desktop\facebook-90s\projectassests\pofile.png)
+![Screenshot of Home Page](projectassests\homepage.png)
+![Screenshot of Profile Page](projectassests\pofile.png)
 ![Screenshot of Login page](projectassests\login_page.png)
 ![Screenshot of Sign-up page](projectassests\signup_page.png)
 ![Screenshot of Sign-up page](projectassests\reelpage.png)
