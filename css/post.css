@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'SuperMario';
     /* src: url('font/SuperMario85.woff') format('woff'); */
@@ -104,13 +103,24 @@ padding: 1rem;
 .camera-container {
     margin-top: 20px;
 }
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+}
 img {
     margin-top: 20px;
     max-width: 100%;
     height: auto;
-    border: 2px solid #333;
     border-radius: 8px;
 }
+section ,p{
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
 footer {
     background: #1d51d8d4;
     color: white;

@@ -124,7 +124,8 @@ body {
     width: 100%;
     margin-bottom: 10px;
     font-size: 1rem;
-    background: rgb(185, 185, 185);
+    /* background: rgb(185, 185, 185); */
+    background-color: white;
     box-shadow: inset -5px 3px 2px 4px rgba(0, 0, 0, 0.696);
 }
 .search ::placeholder{
@@ -365,11 +366,8 @@ main {
 text-decoration: none;
 }
 .follow:hover{
-    background-color: white;
-    color: black;
-}
-.follow a:hover{
-    color: black;
+    background-color: rgb(221, 0, 221);
+    
 }
 
 /* Post Content */

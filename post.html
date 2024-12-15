@@ -3,15 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reel.css">
-    <title>Camera Photo Capture</title>
+    <link rel="stylesheet" href="css/post.css">
+    <title>Retro-Facebook | Post</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
         .camera-container {
             margin-top: 20px;
         }
@@ -48,7 +42,7 @@
         <h1>Take a Picture</h1>
         <p>Click the button below to take a picture using your device's camera.</p>
 
-        <input type="file" accept="image/*" capture="camera" id="cameraUpload" />
+        <input type="file" accept="image/*" capture="camera" id="cameraUpload" placeholder="upload photo" />
 
         <!-- Preview the uploaded image -->
         <img id="preview" style="max-width: 300px; margin-top: 20px;" />
