@@ -1,6 +1,6 @@
 # Retro Facebook Clone
 
-A nostalgic Facebook clone inspired by the platform's early days. This project replicates the retro look and feel while providing modern functionality.
+A nostalgic Facebook clone inspired by the platform's early days. This project replicates the retro look and is project of my First ever GLOBAL hackathon "Codedex - Mini Holiday Hackathon".
 
 ## Table of Contents
 - [Features](#features)
@@ -25,15 +25,16 @@ A nostalgic Facebook clone inspired by the platform's early days. This project r
 ---
 
 ## Screenshots
-![Screenshot of Home Page](path/to/homepage-screenshot.png)
-![Screenshot of Profile Page](path/to/profile-screenshot.png)
-
-> Add screenshots of key parts of your application here.
+![Screenshot of Home Page](projectassests\homepage.png)
+![Screenshot of Profile Page](projectassests\pofile.png)
+![Screenshot of Login page](projectassests\login_page.png)
+![Screenshot of Sign-up page](projectassests\signup_page.png)
+![Screenshot of Sign-up page](projectassests\reelpage.png)
 
 ---
 
 ## Demo
-You can try the live version of the project [here](your-live-demo-link).
+[Video](projectassests\demo_video.mp4).
 
 ---
 
